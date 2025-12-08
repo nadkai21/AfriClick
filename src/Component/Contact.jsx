@@ -32,7 +32,7 @@ const Contact = () => {
     setStatus({ type: "sending", message: "Sending..." });
 
     try {
-      const res = await fetch("https://africlick-backend.onrender.com/contact", {
+      const res = await fetch("", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),
