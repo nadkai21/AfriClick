@@ -1,16 +1,122 @@
-# React + Vite
+# AfriClick Digital
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**The Digital Growth Partner for Africa's Entrepreneurs**
 
-Currently, two official plugins are available:
+A modern, responsive marketing website for AfriClick Digital — a digital marketing and SEO consultancy helping African businesses build visibility and grow online. Based in Dar es Salaam, Tanzania.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Responsive design** — Optimized for mobile, tablet, and desktop
+- **Sections** — Hero, Our Promise, About Us, Services, Client Results, Our Values, Testimonials, Contact, and Footer
+- **Contact form** — Integrated with Formspree; validates Gmail and Yahoo addresses
+- **Contact options** — Clickable email, WhatsApp chat link, and phone number in the footer
+- **Animations** — Smooth scroll and motion effects via Framer Motion
+- **Dark mode** — Theme-aware styling where supported
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+| Category      | Technology |
+|---------------|------------|
+| Framework     | React 19   |
+| Build tool    | Vite 7     |
+| Styling       | Tailwind CSS |
+| Animations    | Framer Motion |
+| Icons         | Font Awesome, Lucide React |
+| Routing       | React Router DOM |
+| Forms         | Formspree (contact) |
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18 or later recommended)
+- npm or yarn
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/nadkai21/AfriClick.git
+cd AfriClick
+
+# Install dependencies
+npm install
+```
+
+### Development
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+### Build for production
+
+```bash
+npm run build
+```
+
+Output is in the `dist` folder.
+
+### Preview production build
+
+```bash
+npm run preview
+```
+
+### Deploy (GitHub Pages)
+
+```bash
+npm run deploy
+```
+
+---
+
+## Project Structure
+
+```
+AfriClick/
+├── src/
+│   ├── Component/
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── OurPromise.jsx
+│   │   ├── About.jsx
+│   │   ├── Service.jsx
+│   │   ├── ClientResult.jsx
+│   │   ├── OurValues.jsx
+│   │   ├── Testimonial.jsx
+│   │   ├── Contact.jsx
+│   │   ├── FinalCTA.jsx
+│   │   └── Footer.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── index.html
+├── package.json
+├── tailwind.config.js
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## Contact
+
+- **Email:** [info@infoafriclick.co.tz](mailto:info@infoafriclick.co.tz)
+- **Phone (TZ):** +255 791 007 681
+- **WhatsApp:** [Chat with us](https://wa.me/255791007681)
+- **Office:** Dar es Salaam, Tanzania
+
+---
+
+## License
+
+© 2026 AfriClick Digital. All rights reserved.
