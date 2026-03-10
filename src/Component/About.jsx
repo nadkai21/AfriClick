@@ -55,9 +55,7 @@ const About = () => {
 
           {/*mission and vision*/}
           <div
-            className=" flex flex-col sm:flex-row gap-6 sm:gap-8 items-center justify-center md:justify-start mt-6 sm:mt-[30px]
-              [@media(min-width:768px)and(max-width:1024px)]:flex-wrap
-              [@media(min-width:768px)and(max-width:1024px)]:gap-4"
+            className=" flex flex-col sm:flex-row gap-6 sm:gap-8 items-center justify-center md:justify-start lg:justify-start mt-6 sm:mt-[30px] md:flex-wrap lg:flex-nowrap md:gap-4 lg:gap-8"
           >
             <div className="text-start">
               <h2 className="text-indigo-600 text-xl sm:text-2xl font-extrabold  ">
@@ -69,7 +67,7 @@ const About = () => {
               </p>
             </div>
 
-            <hr className="hidden sm:block w-px h-16 bg-gray-400 border-0 [@media(min-width:768px)and(max-width:1024px)]:hidden" />
+            <hr className="hidden sm:block md:hidden lg:block w-px h-16 bg-gray-400 border-0" />
 
             <div className="text-start">
               <h2 className="text-indigo-600 text-xl sm:text-2xl font-extrabold  ">
