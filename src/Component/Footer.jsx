@@ -10,12 +10,12 @@ const Footer = () => {
         },
         {
           icon: "fas fa-phone",
-          title: "+255 791 007 681",
+          title: "+255 746 165 445",
           text: "Call Us (TZ)",
         },
         {
           icon: "fas fa-house",
-          title: "Dar es Salaam, Tanzania",
+          title: "10th Floor Rita Tower, Makuganya Street, Posta. Dar Es Salaam",
           text: "Our Office",
         },
       ];
@@ -55,17 +55,20 @@ px-4 mt-4 ipad:mt-6 md:mt-8 md:max-w-[80%] mx-auto gap-10">
 </div>
             </div>
             <div className='flex justify-center items-center gap-4 ipad:4 md:gap-6 text-white text-2xl mt-12 mb-10'>
-      <a href="https://wa.me/255791007681" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition-colors" aria-label="Chat on WhatsApp">
+      <a href="https://wa.me/255746165445" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition-colors" aria-label="Chat on WhatsApp">
         <i className="fa-brands fa-whatsapp"></i>
       </a>
-      <a href="https://www.facebook.com/share/17gzh4eQdk/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition-colors">
+      <a href="https://www.facebook.com/profile.php?id=61574699205212" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition-colors">
         <i className="fa-brands fa-facebook"></i> 
       </a>
       <a href="https://www.linkedin.com/company/africlick-digital/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition-colors">
         <i className="fa-brands fa-linkedin"></i>
       </a>
-      <a href="https://www.instagram.com/africlicktz?igsh=ZXRiZGdlNXRmeXl3" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition-colors">
+      <a href="https://www.instagram.com/africlick_org?igsh=MXJveWU1ZmJjM2s1YQ==" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition-colors">
         <i className="fa-brands fa-instagram"></i>
+      </a>
+      <a href="https://tiktok.com/@africlick_org" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition-colors" aria-label="Visit TikTok">
+        <i className="fa-brands fa-tiktok"></i>
       </a>
     </div>
     <p className=" flex justify-center text-center items-center text-white cursor-pointer text-sm m-0">Copyright @ AfriClick Digital 2026 - All Right reserved.</p>
